@@ -1,0 +1,152 @@
+ body {
+     background-image: url("../images/bacreg.jpg");
+     background-blend-mode: color;
+     background-size: cover;
+ }
+ 
+ .hmain {
+     position: relative;
+     top: 50px;
+     max-width: 1200px;
+     margin: auto;
+ }
+ 
+ ul {
+     float: right;
+     list-style-type: none;
+     margin-top: 0px;
+ }
+ 
+ ul li {
+     display: inline-grid;
+ }
+ 
+ ul li a {
+     font-size: 25px;
+     padding: 10px 30px;
+     color: rgb(250, 246, 246);
+     text-decoration: none;
+ }
+ 
+ ul li a:hover {
+     position: relative;
+     font-size: 20px;
+     border: 1px dotted rgb(250, 246, 246);
+     letter-spacing: 1px;
+     transition: 0.6s ease;
+ }
+ 
+ .loghome a {
+     position: absolute;
+     top: 0px;
+     left: 100px;
+     max-width: 1000px;
+     margin: auto;
+     padding: 10px 30px;
+     color: rgb(252, 245, 245);
+ }
+ 
+ .loghome input:hover {
+     background-color: #fff;
+     color: #000;
+     transition: 0.4s ease;
+ }
+ 
+ .pagelog {
+     position: absolute;
+     top: 00%;
+     left: 50%;
+     color: rgb(255, 255, 255);
+     transform: translate(-50%, -50%);
+     font-family: sans-serif;
+ }
+ 
+ .upmain {
+     position: relative;
+     top: 100px;
+     left: 00px;
+     text-align: left;
+     width: 840px;
+     height: 550px;
+     border: 2px dashed rgba(250, 246, 246, 0.726);
+ }
+ 
+ .logo {
+     position: absolute;
+     width: 200px;
+     height: 50px;
+     left: 50%;
+     top: 0%;
+     transform: translate(-50%, -50%);
+     background-color: rgba(0, 0, 0, 0.575);
+     border-radius: 50%;
+ }
+ 
+ .logo i {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 40px;
+ }
+ 
+ .sub input {
+     position: relative;
+     width: 300px;
+     height: 40px;
+     text-align: center;
+     font-family: sans-serif;
+     color: rgb(255, 255, 255);
+     background-color: rgba(0, 0, 0, 0.425);
+     border-radius: 10px;
+     border: none;
+ }
+ 
+ .but input {
+     position: relative;
+     width: 50px;
+     height: 20px;
+     border-radius: 10px;
+     border: none;
+ }
+ 
+ .but label {
+     position: relative;
+     font-size: 20px;
+     font-weight: bolder;
+     letter-spacing: 3px;
+     color: white;
+ }
+ 
+ .upr input {
+     position: relative;
+     width: 200px;
+     height: 40px;
+     text-align: center;
+     font-family: sans-serif;
+     color: rgb(255, 255, 255);
+     background-color: rgba(0, 0, 0, 0.425);
+     border-radius: 10px;
+     border: none;
+ }
+ 
+ .submit input {
+     position: relative;
+     width: 500px;
+     height: 40px;
+     text-align: center;
+     font-family: sans-serif;
+     color: rgb(255, 255, 255);
+     background-color: rgba(0, 0, 0, 0.425);
+     border: none;
+     border-radius: 40px;
+ }
+ 
+ .submit input:hover {
+     color: rgb(255, 255, 255);
+     background-color: rgba(0, 0, 0, 0.644);
+ }
+ 
+ marquee {
+     position: relative;
+ }

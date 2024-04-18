@@ -1,0 +1,57 @@
+body {
+    background-image: url("../images/dupbac.jpg");
+    background-size: cover;
+
+}
+
+header {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.326);
+}
+
+table {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.537);
+}
+
+.loghome a {
+    position: relative;
+    color: rgb(255, 255, 255);
+    float: right;
+    padding: 20px 50px;
+    text-decoration: none;
+    border: 1px dashed rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.loghome a:hover {
+    letter-spacing: 2px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(254, 254, 254);
+    transition: 0.5s ease;
+}
+
+th input {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    border: 1px solid rgb(254, 254, 254);
+}
+
+/*   Home Page Edits    */
+th textarea {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    border: 1px solid rgb(254, 254, 254);
+}

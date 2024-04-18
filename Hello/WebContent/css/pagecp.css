@@ -1,0 +1,124 @@
+body {
+    background-image: url("../images/logb.jpg");
+    background-size: cover;
+}
+
+.loghome a {
+    color: rgb(255, 255, 255);
+    float: right;
+    padding: 20px 50px;
+    text-decoration: none;
+    border: 1px dashed rgb(0, 0, 0);
+    background-color: rgba(4, 7, 26, 0.865);
+}
+
+.loghome a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(116, 151, 255);
+    transition: 0.5s ease;
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.logo i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.inmain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    border: 5px dotted rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.subin input {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    border: none;
+}
+
+.subin1 input {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    border: none;
+}
+
+.passin input {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    border: none;
+}
+
+.pagelogin {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 1px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.login input {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.856);
+    background-color: rgb(14, 14, 17);
+    border: none;
+    border-radius: 40px;
+}
+
+.login input:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url("bacin.jpg");
+    background-size: cover;
+}
+
+.hmain {
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-grid;
+}
+
+ul li a {
+    padding: 10px 30px;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    border: 1px dotted rgb(0, 0, 0);
+    letter-spacing: 1px;
+    transition: 0.6s ease;
+}
+
+.head {
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    padding: 4px 40px;
+}
+
+.title {
+    color: black;
+    position: relative;
+    top: 120px;
+    left: 0%;
+    display: 0;
+    text-decoration: none;
+    padding: 10px 50px;
+    border: 2px dotted rgb(8, 8, 8);
+}
+
+.button {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 200px;
+    left: 0px;
+}
+
+.btn {
+    font-weight: bolder;
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.btn:hover {
+    border: 1px dotted rgb(0, 0, 0);
+    letter-spacing: 1px;
+    transition: 0.6s ease;
+}

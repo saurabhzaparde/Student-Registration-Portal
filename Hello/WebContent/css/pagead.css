@@ -1,0 +1,61 @@
+body {
+    background-image: url("../images/adm.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.395);
+}
+
+ul {
+    float: right;
+    padding: 0px 0px;
+    list-style-type: none;
+}
+
+ul li {
+    color: rgb(7, 7, 7);
+    display: inline-grid;
+}
+
+ul li button {
+    width: 120px;
+    height: 50px;
+    font-size: medium;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.158);
+    border: none;
+}
+
+ul li button:hover {
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.646);
+    transition: 0.5s ease;
+}
+
+table {
+    position: relative;
+    top: 15%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.365);
+}
+
+.hr button {
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.537);
+    text-decoration: none;
+}
+
+.hr button :hover {
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.75);
+    transition: 0.5s ease;
+}
