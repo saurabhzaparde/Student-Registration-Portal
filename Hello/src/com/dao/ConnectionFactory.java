@@ -20,7 +20,7 @@ public class ConnectionFactory {
 	        	ds.setUser("SYSTEM");
 	        	ds.setPassword("sql_me");
 	        	con = ds.getConnection();
-//		        System.out.println(con);
+		        System.out.println(con);
 		
 	           } 
 	           catch (Exception e) {
